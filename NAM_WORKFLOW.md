@@ -13,6 +13,9 @@
 - Resolve warnings, not only errors.
 - Filter false positives during bug investigations. Every change must be justified
   by concrete evidence.
+- No AI slop or speculative changes. Before changing code, establish that the
+  behavior is a real problem, that the change directly solves it, and that its
+  maintenance cost is justified.
 
 This fork keeps two kinds of history separate:
 
